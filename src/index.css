@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  header, footer, #package-input-section, #btn-configure-rules, #btn-reset-inspection {
+    display: none !important;
+  }
+}

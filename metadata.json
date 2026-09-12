@@ -1,0 +1,7 @@
+{
+  "name": "Smart Legal Metrology Inspector for SIH26034",
+  "description": "AI-powered multimodal package compliance inspector for Legal Metrology Packaged Commodities Rules under SIH Problem Statement SIH26034.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
