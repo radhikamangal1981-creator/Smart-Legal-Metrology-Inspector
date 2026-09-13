@@ -226,7 +226,7 @@ npm start
 ## 🔗 Important Links
 
 - [GitHub Repository](https://github.com/radhikamangal1981-creator/Smart-Legal-Metrology-Inspector)
-- [Demo Video](https://www.youtube.com/)
+- [Demo Video](https://youtu.be/wFNgqC3XkPs)
 
 ---
 
