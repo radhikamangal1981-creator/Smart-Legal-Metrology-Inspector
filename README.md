@@ -23,16 +23,7 @@ Replace slow, manual, paper-based legal metrology inspections with a fast, consi
 
 ## 💡 Our Solution
 
-Smart Legal Metrology Inspector uses a vision-and-language AI model, grounded with a detailed legal system prompt encoding the Legal Metrology Act 2009, the LMPC Rules 2011, and FSSAI packaging regulations, to:
-
-1. **Read the package like an inspector would** — extracting every statutory declaration directly from the image (manufacturer/packer details, net quantity, MRP, dates, consumer care info, country of origin, batch number, certifications, and more).
-2. **Locate the evidence visually** — returning bounding boxes over the exact regions of the image where each declaration was found, so a human reviewer can instantly verify the AI's reading.
-3. **Evaluate each rule explicitly** — running each active rule against the extracted data and returning a `PASS` / `FAIL` / `NEEDS_REVIEW` verdict with severity, legal reference, plain-language explanation, remedial action, and applicable penal provision.
-4. **Assess layout and readability** — scoring Principal Display Panel (PDP) prominence, font legibility, contrast, background clutter, and lighting quality, since a technically-present declaration that isn't legible is still a violation.
-5. **Detect language compliance** — identifying which languages/scripts appear on the pack to verify the Hindi/English dual-declaration requirement.
-6. **Produce an auditable report** — generating an overall compliance score, status, and officer-ready inspection report (plus a batch/cumulative report across multiple inspections) that can be exported or acted upon.
-
-Where a live AI key isn't available, the app ships with a set of **precomputed, real-world benchmark packages** so every feature can be explored end-to-end without any setup.
+The app extracts every statutory declaration from a package image, locates it visually with bounding boxes, and evaluates it against each applicable rule — returning a status, severity, legal reference, and remedial action per check, plus an overall compliance score and suggested action. Preloaded real-world sample packages let the full workflow be explored even without a live API key.
 
 ## ✨ Features
 
