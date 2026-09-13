@@ -40,19 +40,17 @@ Where a live AI key isn't available, the app ships with a set of **precomputed, 
 
 ## ✨ Features
 
-- 📸 **Image-based inspection** — upload a photo or use a device camera to scan a package.
-- 🗂️ **Category-aware rule sets** — rules automatically adapt to product category (Food & Beverage, Cosmetics, General FMCG, Electronics, Imported Goods).
-- 🧠 **Multimodal AI extraction** — Gemini-powered extraction of all statutory declarations with per-field confidence scores and raw text evidence.
-- 🖼️ **Interactive visual overlay** — clickable bounding boxes on the package image link every extracted field back to exactly where it appears.
-- ✅ **Rule-by-rule compliance engine** — each check reports status, severity (Critical/Major/Minor/Info), legal reference, findings, remedial action, and penal provision.
-- 🎚️ **Configurable rule sets** — inspectors can enable/disable specific mandatory rules per category and instantly re-evaluate an existing audit against the new configuration, without re-running AI analysis.
-- 📐 **Layout & readability analysis** — PDP area percentage, font legibility score, contrast rating, background interference, and lighting quality assessment.
-- 🌐 **Language detection** — identifies declared languages/scripts and checks Hindi/English compliance under Rule 9.
-- 📊 **Compliance score & suggested action** — an overall score and one of `APPROVE`, `ISSUE_NOTICE`, `CONFISCATE_SAMPLE`, or `PHYSICAL_INSPECTION_REQUIRED`.
-- 📝 **Official inspection report** — a formatted, printable/exportable inspection certificate/notice for a single scan.
-- 📚 **Batch report & registry** — a cumulative view across all inspections performed in a session, with the ability to jump back into any past result.
-- 🧪 **Preloaded real-world benchmark packages** — explore the full workflow instantly using precomputed sample results, even without an API key configured.
-- ⚡ **Graceful fallback handling** — clear, actionable messaging when the AI backend or API key isn't configured, with sample packages remaining fully usable.
+- 📸 Image upload / camera capture for package inspection
+- 🗂️ Category-aware rule sets (Food, Cosmetics, FMCG, Electronics, Imported Goods)
+- 🧠 Gemini-powered extraction of all statutory declarations with confidence scores
+- 🖼️ Interactive bounding-box overlay linking fields to evidence in the image
+- ✅ Rule-by-rule compliance engine (status, severity, legal reference, penal provision)
+- 🎚️ Configurable rules with instant local re-evaluation (no re-scan needed)
+- 📐 Layout & readability analysis (PDP area, font legibility, contrast, lighting)
+- 🌐 Language detection for Hindi/English compliance
+- 📊 Overall compliance score & suggested action (Approve / Notice / Confiscate / Physical Inspection)
+- 📝 Exportable single inspection report + cumulative batch report/registry
+- 🧪 Preloaded benchmark packages usable without an API key
 
 ## 🔄 Platform Process Flow
 
