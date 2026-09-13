@@ -27,10 +27,10 @@ The app extracts every statutory declaration from a package image, locates it vi
 
 ## ✨ Features
 
-<img width="1384" height="717" alt="Screenshot 2026-09-13 at 11 46 17 AM" src="https://github.com/user-attachments/assets/de3c686e-0a39-43ef-869b-ead4980738ea" />
-<img width="1328" height="717" alt="Screenshot 2026-09-13 at 11 46 53 AM" src="https://github.com/user-attachments/assets/d9baad3b-2ed5-4a78-817d-ddaf5cc914e8" />
-<img width="1236" height="624" alt="Screenshot 2026-09-13 at 11 47 14 AM" src="https://github.com/user-attachments/assets/9952723d-e3eb-45dc-a7e8-654f13094892" />
-<img width="1288" height="611" alt="Screenshot 2026-09-13 at 11 47 32 AM" src="https://github.com/user-attachments/assets/6e449db8-ec0d-4f9f-9a51-e9f0141ca4e7" />
+<img width="692" height="359" alt="Screenshot 2026-09-13 at 11 46 17 AM" src="https://github.com/user-attachments/assets/de3c686e-0a39-43ef-869b-ead4980738ea" />
+<img width="664" height="359" alt="Screenshot 2026-09-13 at 11 46 53 AM" src="https://github.com/user-attachments/assets/d9baad3b-2ed5-4a78-817d-ddaf5cc914e8" />
+<img width="618" height="312" alt="Screenshot 2026-09-13 at 11 47 14 AM" src="https://github.com/user-attachments/assets/9952723d-e3eb-45dc-a7e8-654f13094892" />
+<img width="644" height="312" alt="Screenshot 2026-09-13 at 11 47 32 AM" src="https://github.com/user-attachments/assets/6e449db8-ec0d-4f9f-9a51-e9f0141ca4e7" />
 
 
 - 📸 Image upload / camera capture for package inspection
