@@ -7,23 +7,19 @@ Built for **SIH Problem Statement SIH26034** — Smart India Hackathon
 
 ## 📖 Introduction
 
-The **Smart Legal Metrology Inspector** is a web application that uses multimodal AI (Google Gemini) to automatically inspect images of packaged commodities and check them against India's statutory labelling requirements. An inspector — or a manufacturer doing a pre-market self-check — simply uploads or captures a photo of a product's packaging, and the system extracts every mandatory declaration, maps it to the exact rule it must satisfy, and returns a structured, evidence-backed compliance report in seconds.
-
-It is designed as a working prototype for enforcement officers under the Department of Consumer Affairs, Government of India, but is equally usable by brand owners and packaging QA teams who want to catch violations before a product ever reaches a shelf.
+An app that uses multimodal AI (Google Gemini) to inspect photos of packaged commodities against India's Legal Metrology labelling rules. Upload a package image and get back extracted declarations, per-rule PASS/FAIL verdicts, and a compliance score in seconds.
 
 ## 🎯 Our Vision
 
-To replace slow, manual, paper-based legal metrology inspections with a fast, consistent, and auditable digital process — so that every packaged product sold in India, regardless of category or manufacturer size, can be checked for consumer-protection compliance in the time it takes to snap a photo. We want to make regulatory compliance verification as accessible as taking a picture, while giving enforcement officers a defensible, evidence-linked audit trail for every decision they make.
+Replace slow, manual, paper-based legal metrology inspections with a fast, consistent, and auditable digital process — making compliance checks as easy as taking a photo, for inspectors and brand owners alike.
 
 ## ❗ The Problem
 
-Legal Metrology inspectors are responsible for verifying that every packaged commodity sold in India — food, cosmetics, electronics, general FMCG, and imported goods — carries a specific, legally mandated set of declarations (manufacturer details, net quantity, MRP, dates, consumer care information, and more). Today this is largely a manual process:
-
-- **Slow and inconsistent**: Physical inspection of every declaration on every package is time-consuming, and outcomes vary between inspectors.
-- **Error-prone**: Small but legally significant violations (a missing "inclusive of all taxes", a non-standard unit like "gms" instead of "g", an absent PIN code) are easy to miss by eye.
-- **Hard to scale**: With thousands of SKUs entering the market, the number of trained inspectors cannot keep pace with the volume of packages that need checking.
-- **Poor audit trails**: Paper-based or informal digital checks rarely leave behind structured, reusable evidence that can support a legal notice or penalty.
-- **Fragmented rule references**: Rules are spread across the Legal Metrology Act 2009, the LMPC Rules 2011 (as amended), and FSSAI regulations, making it hard for any single officer to check everything correctly and consistently.
+- Manual inspection of every mandatory declaration is slow and inconsistent across officers.
+- Small but legally significant violations (wrong units, missing "inclusive of all taxes", missing PIN code) are easy to miss.
+- Thousands of SKUs enter the market daily — far more than inspectors can manually check.
+- Paper-based checks leave no structured, reusable evidence for enforcement action.
+- Rules are scattered across the Legal Metrology Act, LMPC Rules 2011, and FSSAI regulations.
 
 ## 💡 Our Solution
 
