@@ -223,6 +223,11 @@ npm start
 - **Usability without API access** → Precomputed real-world benchmark packages ship with the app for full offline exploration.
 - **Communicating severity clearly** → Each check carries a severity level and legal reference, mapped to a clear suggested action.
 
+## 🔗 Important Links
+
+- [GitHub Repository](https://github.com/radhikamangal1981-creator/Smart-Legal-Metrology-Inspector)
+- [Demo Video](https://www.youtube.com/)
+
 ---
 
 *Smart Legal Metrology Inspector — a prototype built for SIH Problem Statement SIH26034, supporting automated verification under the Legal Metrology (Packaged Commodities) Rules, 2011 and Section 36 of the Legal Metrology Act, 2009.*
