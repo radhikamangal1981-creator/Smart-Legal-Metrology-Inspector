@@ -222,29 +222,12 @@ npm start
 
 ## 🧩 Challenges and Strategy
 
-**1. Grounding a general-purpose model in a specific legal framework**
-*Challenge*: Off-the-shelf multimodal models don't inherently know India's Legal Metrology Act, the LMPC Rules 2011, or FSSAI packaging regulations.
-*Strategy*: A detailed system prompt was engineered that explicitly encodes each relevant rule (Rule 6(1)(a), 6(1)(b), 6(1)(c), 6(1)(e), 6(11), 6(1)(d), 6(1)(g), 6(10), Rule 9, Rules 6–8) along with the specific patterns that constitute violations (e.g., non-standard units, missing "inclusive of all taxes" language), so extraction and evaluation are both legally grounded rather than generic.
-
-**2. Producing consistent, structured output from a generative model**
-*Challenge*: Free-form model responses are hard to render reliably in a UI or use for rule evaluation.
-*Strategy*: The model is constrained to return a strict JSON schema (extracted declarations, bounding boxes, detected languages, layout analysis, and per-rule checks), with `responseMimeType: application/json` and a low temperature to maximize consistency, plus defensive fallbacks in `geminiService.ts` for any missing fields.
-
-**3. Letting inspectors verify AI output rather than blindly trust it**
-*Challenge*: An inspection tool that reports "FAIL" without evidence is not usable for real enforcement decisions.
-*Strategy*: Every extracted field is paired with a bounding box, confidence score, and raw text snippet, and the UI links each compliance check back to the exact region of the image it depends on via the interactive canvas overlay.
-
-**4. Supporting different product categories with different rule applicability**
-*Challenge*: Not every rule applies to every category (e.g., Unit Sale Price doesn't apply the same way to Electronics, veg/non-veg logo only applies to Food & Beverage).
-*Strategy*: Rules are defined with an `applicableCategories` field, and the Rule Configuration Modal lets an inspector toggle rules on/off per category, with a lightweight local re-evaluation engine (`evaluation.ts`) that recomputes compliance without needing to re-call the AI.
-
-**5. Making the tool usable without depending on API availability**
-*Challenge*: API keys, quotas, or network access shouldn't block a demo or evaluation of the tool.
-*Strategy*: A curated set of real-world benchmark packages with precomputed results ships with the app, so the full UI — canvas overlay, declarations panel, compliance table, layout analysis, and reports — can be explored end-to-end offline or without a configured key.
-
-**6. Communicating regulatory severity clearly**
-*Challenge*: Not all violations carry equal legal weight.
-*Strategy*: Every check carries a `CRITICAL` / `MAJOR` / `MINOR` / `INFO` severity alongside its legal reference and penal provision, and the overall result maps to an actionable outcome (`APPROVE`, `ISSUE_NOTICE`, `CONFISCATE_SAMPLE`, `PHYSICAL_INSPECTION_REQUIRED`) so a reviewing officer gets a clear next step, not just a score.
+- **Grounding the model in law** → Encoded specific LMPC/FSSAI rules and violation patterns directly into the system prompt.
+- **Consistent structured output** → Enforced strict JSON schema with low temperature + defensive fallbacks.
+- **Trustworthy AI results** → Every extracted field ships with a bounding box, confidence score, and raw text evidence.
+- **Category-specific rule applicability** → Rules tagged by category; toggleable via a config modal with instant local re-evaluation.
+- **Usability without API access** → Precomputed real-world benchmark packages ship with the app for full offline exploration.
+- **Communicating severity clearly** → Each check carries a severity level and legal reference, mapped to a clear suggested action.
 
 ---
 
