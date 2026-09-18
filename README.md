@@ -33,6 +33,8 @@ The app extracts every statutory declaration from a package image, locates it vi
 <img width="346" height="180" alt="Screenshot 2026-09-13 at 11 46 53 AM" src="https://github.com/user-attachments/assets/d9baad3b-2ed5-4a78-817d-ddaf5cc914e8" />
 <img width="346" height="156" alt="Screenshot 2026-09-13 at 11 47 14 AM" src="https://github.com/user-attachments/assets/9952723d-e3eb-45dc-a7e8-654f13094892" />
 <img width="346" height="156" alt="Screenshot 2026-09-13 at 11 47 32 AM" src="https://github.com/user-attachments/assets/6e449db8-ec0d-4f9f-9a51-e9f0141ca4e7" />
+<img width="320" height="379" alt="WhatsApp Image 2026-09-13 at 11 41 09" src="https://github.com/user-attachments/assets/28ebe2a2-b1f8-45d3-918e-d3e7592c5a93" />
+
 
 
 
